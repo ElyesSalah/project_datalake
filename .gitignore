@@ -1,0 +1,14 @@
+# .gitignore
+
+# Environnements virtuels
+venv/
+
+# Fichiers temporaires / cache
+__pycache__/
+*.pyc
+
+# Données potentiellement volumineuses ou sensibles
+data/
+
+# Config contenant des credentials (à adapter selon votre projet)
+config/settings.yaml
