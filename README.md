@@ -138,22 +138,7 @@ pytest tests/
 
 ---
 
-## 📌 **9. Déploiement et utilisation en production**
-Si tu veux **exécuter le projet en production**, voici quelques étapes recommandées :
-
-### **1️⃣ Démarrer en mode production**
-Utiliser `docker-compose.prod.yml` :
-```bash
-docker-compose -f docker-compose.prod.yml up -d
-```
-
-### **2️⃣ Déployer l’API sur un serveur**
-- Hébergement possible sur **AWS EC2, GCP, Azure**.
-- Utilisation de **NGINX ou Traefik** pour exposer l’API FastAPI.
-
----
-
-## 📌 **10. Résumé des commandes essentielles**
+## 📌 **9. Résumé des commandes essentielles**
 | **Action** | **Commande** |
 |------------|-------------|
 | **1. Cloner le projet** | `git clone https://github.com/votre-repo/projet_datalake.git` |
