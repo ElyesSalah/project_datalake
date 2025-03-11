@@ -4,7 +4,7 @@
 ---
 
 ## 📌 **1. Pré-requis**  
-Avant de commencer, assure-toi d’avoir les applications suivantes installées :
+Avant de commencer, les applications suivantes sont bien installées :
 
 ✅ **Docker & Docker Compose** ([Installation](https://docs.docker.com/get-docker/))  
 ✅ **Python 3.8+** ([Installation](https://www.python.org/downloads/))  
@@ -15,7 +15,7 @@ Avant de commencer, assure-toi d’avoir les applications suivantes installées 
 ---
 
 ## 📌 **2. Cloner le projet et installer les dépendances**  
-Clone le projet et installe les bibliothèques nécessaires :
+Cloner le projet et installe les bibliothèques nécessaires :
 
 ```bash
 git clone https://github.com/ElyesSalah/project_datalake.git
@@ -44,21 +44,21 @@ Le projet utilise **Docker Compose** pour démarrer les services automatiquement
 docker-compose up -d
 ```
 📌 **Ce que cela fait :**  
-✅ Lance **PostgreSQL pour Airflow**  
-✅ Démarre **Airflow (Scheduler, Webserver)**  
-✅ Active **MongoDB**  
+✅ Lancer **PostgreSQL pour Airflow**  
+✅ Démarrer **Airflow (Scheduler, Webserver)**  
+✅ Activer **MongoDB**  
 
 ---
 
 ## 📌 **4. Vérifier et configurer Airflow**
-Une fois lancé, ouvre **Airflow UI** et connecte-toi :
+Une fois lancé, ouvrir **Airflow UI** et se connecter :
 
 👉 **[http://localhost:8080](http://localhost:8080)**  
 📌 **Identifiants :**
 - **Utilisateur** : `admin`
 - **Mot de passe** : `admin`
 
-Vérifie que le DAG **`pipeline_datalake`** est bien listé.
+Vérifier que le DAG **`pipeline_datalake`** est bien listé.
 
 ---
 
@@ -69,9 +69,9 @@ Le pipeline d’Airflow est défini dans **`dags/pipeline.py`**. Il exécute tro
 3. **`load_gold_data`** → Enrichit et stocke dans MongoDB.
 
 ### **Activer le DAG**
-1. Va dans l’interface Airflow.
-2. Active **`pipeline_datalake`**.
-3. Clique sur ▶️ **"Trigger DAG"** pour l’exécuter.
+
+1. Activer **`pipeline_datalake`**.
+2. Cliquer sur ▶️ **"Trigger DAG"** pour l’exécuter.
 
 ---
 
@@ -85,7 +85,7 @@ SELECT * FROM wine_data LIMIT 5;
 ```
 
 ### **🔹 MongoDB (Gold)**
-Accède à **MongoDB Compass** ou via terminal :
+Accèder à **MongoDB Compass** ou via terminal :
 ```bash
 mongo
 use wine_gold
@@ -134,7 +134,7 @@ python scripts/03_load_gold.py
 ```bash
 pytest tests/
 ```
-📌 Vérifie que tous les tests **passent avec succès** ✅.
+📌 Vérifier que tous les tests **passent avec succès** ✅.
 
 ---
 
@@ -153,5 +153,3 @@ pytest tests/
 
 ---
 
-🚀 **Ton projet est maintenant bien structuré et prêt à être exécuté !**  
-Dis-moi si tu veux ajouter quelque chose à la documentation ! 😊
