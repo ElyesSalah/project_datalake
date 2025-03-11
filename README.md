@@ -12,6 +12,7 @@ Avant de commencer, les applications suivantes sont bien installées :
 ✅ **MySQL** ([Installation](https://dev.mysql.com/downloads/installer/))  
 ✅ **Git** ([Installation](https://git-scm.com/downloads))  
 
+Configurer AWS et son bucket avec sa clé
 ---
 
 ## 📌 **2. Cloner le projet et installer les dépendances**  
