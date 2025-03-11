@@ -7,7 +7,7 @@ def upload_to_s3(local_path, bucket_name, s3_path):
 
 if __name__ == "__main__":
     # Exemple d’utilisation
-    bucket = "my-bronze-bucket"
+    bucket = "my-bucket-datalake-2025"
     files = ["winequality-red.csv", "winequality-white.csv", "winequality.names"]
     local_folder = "data/raw"
 

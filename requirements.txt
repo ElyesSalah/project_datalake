@@ -6,3 +6,7 @@ boto3
 pymongo
 fastapi
 uvicorn
+pydantic
+requests
+python-dotenv
+pytest

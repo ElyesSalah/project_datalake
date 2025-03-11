@@ -8,7 +8,7 @@ __pycache__/
 *.pyc
 
 # Données potentiellement volumineuses ou sensibles
-data/
+#data/
 
 # Config contenant des credentials (à adapter selon votre projet)
 config/settings.yaml

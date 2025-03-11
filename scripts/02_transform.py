@@ -26,7 +26,7 @@ LOCAL_RAW_PATH = "data/raw"
 MYSQL_HOST = "localhost"
 MYSQL_PORT = 3306
 MYSQL_USER = "root"
-MYSQL_PASSWORD = "9852xywbaqtz"  # À adapter
+MYSQL_PASSWORD = "9852xywbaqtz"  
 MYSQL_DB = "projet_datalake"        # Schéma
 TABLE_NAME = "wine_data"
 
